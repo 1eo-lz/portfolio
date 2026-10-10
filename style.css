@@ -106,3 +106,47 @@ form button {
     width: 100%;
     height: auto;
 }
+
+.cv-page {
+    max-width: 75ch;
+}
+
+.cv-page h1 {
+    font-size: 300%;
+    margin-bottom: 0.2em;
+}
+
+.cv-page section {
+    margin-block: 2em;
+    padding: 1.2em;
+    border: 1px solid oklch(85% 3% 200);
+    border-radius: 12px;
+    background-color: oklch(98% 2% 200);
+}
+
+.cv-page section h2 {
+    color: oklch(44.433% 0.12018 149.053);
+    border-bottom: 2px solid var(--color-accent);
+    padding-bottom: 0.4em;
+    margin-top: 0;
+}
+
+.cv-page article {
+    margin-block: 1em;
+}
+
+.cv-page article h3 {
+    margin-bottom: 0.3em;
+}
+
+.cv-page article p {
+    margin-block: 0.4em;
+}
+
+.cv-page ul {
+    padding-left: 1.5em;
+}
+
+.cv-page li {
+    margin-block: 0.3em;
+}
