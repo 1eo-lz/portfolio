@@ -150,3 +150,41 @@ form button {
 .cv-page li {
     margin-block: 0.3em;
 }
+
+
+/* auto light and dark */
+html {
+    color-scheme: light dark;
+}
+
+/* nav */
+nav {
+    --border-color: oklch(50% 10% 200 / 40%);
+}
+
+nav {
+    border-bottom-color: var(--border-color);
+}
+
+nav a.current {
+    border-bottom-color: var(--border-color);
+}
+
+nav a:hover {
+    background-color: color-mix(in oklch, var(--color-accent), canvas 85%);
+}
+
+/* light and dark select */
+.color-scheme {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 80%;
+}
+
+input,
+textarea,
+button,
+select {
+    font: inherit;
+}
