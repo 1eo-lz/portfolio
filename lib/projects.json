@@ -1,16 +1,16 @@
 
 [
   {
-    "title": "Personal Website",
-    "year": 2026,
+    "title": "Mt.Sac VEX Robotics Team",
+    "year": 2023,
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "A personal website created using HTML and CSS."
+    "description": "Developed Autonomous routines & mechanical control systems to maximize performance"
   },
   {
-    "title": "Data Visualization",
-    "year": 2026,
+    "title": "RoboGames RoboMagellan",
+    "year": 2024,
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "A project exploring data through charts and visual representations."
+    "description": "Integrated sensors and navigation systems for an autonomous rover in a 6 person team"
   },
   {
     "title": "Database Project",
