@@ -188,3 +188,27 @@ button,
 select {
     font: inherit;
 }
+
+
+/* GitHub statistics */
+#profile-stats dl {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+    text-align: center;
+}
+
+#profile-stats dt {
+    font-weight: bold;
+}
+
+#profile-stats dd {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+@media (max-width: 600px) {
+    #profile-stats dl {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

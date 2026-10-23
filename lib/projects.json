@@ -1,0 +1,75 @@
+
+[
+  {
+    "title": "Personal Website",
+    "year": 2026,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "A personal website created using HTML and CSS."
+  },
+  {
+    "title": "Data Visualization",
+    "year": 2026,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "A project exploring data through charts and visual representations."
+  },
+  {
+    "title": "Database Project",
+    "year": 2025,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "A database project involving SQL queries and data management."
+  },
+  {
+    "title": "HTML Practice",
+    "year": 2025,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "A practice project exploring HTML page structure."
+  },
+  {
+    "title": "Python Programming",
+    "year": 2025,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "A programming project using Python to solve problems."
+  },
+  {
+    "title": "SQL Queries",
+    "year": 2025,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "A collection of queries for retrieving and analyzing data."
+  },
+  {
+    "title": "Web Design",
+    "year": 2024,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "A project exploring website layout and responsive design."
+  },
+  {
+    "title": "CSS Styling",
+    "year": 2024,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "A project focused on styling web pages with CSS."
+  },
+  {
+    "title": "Data Analysis",
+    "year": 2024,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "An exploration of datasets to discover useful patterns."
+  },
+  {
+    "title": "Research Project",
+    "year": 2023,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "A project involving research, organization, and analysis."
+  },
+  {
+    "title": "Programming Practice",
+    "year": 2023,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "A project designed to develop programming skills."
+  },
+  {
+    "title": "Future Project",
+    "year": 2023,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "A placeholder for a future class or personal project."
+  }
+]
