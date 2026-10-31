@@ -93,6 +93,7 @@ export async function fetchJSON(url) {
     }
 }
 
+
 export function renderProjects(projects, containerElement, headingLevel = 'h2') {
     if (!containerElement) {
         console.error('Projects container not found.');
@@ -101,21 +102,38 @@ export function renderProjects(projects, containerElement, headingLevel = 'h2') 
 
     containerElement.innerHTML = '';
 
+    const validHeadingLevels = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6'];
+    if (!validHeadingLevels.includes(headingLevel)) {
+        headingLevel = 'h2';
+    }
+
     for (const project of projects) {
         const article = document.createElement('article');
-        const heading = document.createElement(headingLevel);
-        const image = document.createElement('img');
-        const description = document.createElement('p');
 
+        const heading = document.createElement(headingLevel);
         heading.textContent = project.title;
+
+        const image = document.createElement('img');
         image.src = project.image;
         image.alt = project.title;
+
+        const details = document.createElement('div');
+        details.className = 'project-details';
+
+        const description = document.createElement('p');
         description.textContent = project.description;
 
-        article.append(heading, image, description);
+        const year = document.createElement('p');
+        year.className = 'project-year';
+        year.textContent = project.year;
+
+        details.append(description, year);
+        article.append(heading, image, details);
+
         containerElement.appendChild(article);
     }
 }
+
 
 export async function fetchGitHubData(username) {
     return fetchJSON(`https://api.github.com/users/${username}`);
