@@ -9,7 +9,8 @@ let pages = [
     { url: '', title: 'Home' },
     { url: 'projects/', title: 'Projects' },
     { url: 'contact/', title: 'Contact' },
-    { url: 'cv/', title: 'CV' }
+    { url: 'cv/', title: 'CV' },
+    { url: 'meta/', title: 'Meta' }
 ];
 
 // base
